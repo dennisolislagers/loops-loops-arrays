@@ -4,7 +4,15 @@
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 namen zou bevatten!
 // ==========================================
 
+// Stappenplan:
+// 1 een for loop maken die ongeacht de lengte alle waardes in de array aanspreekt d.m.v. .length.
+// 2 alle waardes loggen en "je" eraan vastplakken.
+
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names);
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i] + "je");
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -19,7 +27,17 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+// Stappenplan.
+// 1 een for loop maken die ongeacht de lengte alle waardes in de array aanspreekt d.m.v. .length.
+// 2 alle waardes aanspreken en vermenigvuldigen met 3.
+
 const numbers = [2, 4, 5, 29, 38];
+console.log(numbers);
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i] * 3);
+}
+;
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -36,6 +54,10 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
+console.log(squares);
+for (let i = 0; i < squares.length; i++) {
+    console.log(squares[i] * squares[i] * squares[i]);
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
